@@ -29,6 +29,7 @@ def plot_social_media_graph(data, importance='blend', blend_weights=(0.5, 0.5),
     - figsize: size of matplotlib figure
     - seed: random seed for layout reproducibility
     */
+    
     G = nx.DiGraph()
 
     # Add user nodes
